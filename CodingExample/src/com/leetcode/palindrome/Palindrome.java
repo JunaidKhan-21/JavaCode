@@ -11,8 +11,9 @@ public class Palindrome {
 		{
 			if(pal.charAt(i) != pal.charAt(strleng-i-1))
 			{
-				System.out.println(pal.charAt(strleng-i-1));
-				System.out.println(pal.charAt(i));
+				System.out.println("Issue at index : "+(i+1)      +" and value is :"+pal.charAt(i));
+				System.out.println("Issue at index : "+(strleng-i)+" and value is :"+pal.charAt(strleng-i-1));
+				
 				System.out.println("Not a Palindrome :"+pal);
 				break;
 			}
