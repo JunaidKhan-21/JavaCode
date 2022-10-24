@@ -31,11 +31,11 @@ public class SendData {
 			System.out.println("Inserting records into the table...");
 			new SendData();
 			String sql = "insert into employees  values (?, ?)";
-			stmt = conn.prepareStatement(sql);
-			stmt.setString(1, name);
-			stmt.setString(2, phone_no);
-			stmt.executeUpdate();
-			System.out.println("Inserted records into the table...");   	  
+//			stmt = conn.prepareStatement(sql);
+//			stmt.setString(1, name);
+//			stmt.setString(2, phone_no);
+//			stmt.executeUpdate();
+//			System.out.println("Inserted records into the table...");   	  
 		} catch (SQLException e) {
 			e.printStackTrace();
 		} 
